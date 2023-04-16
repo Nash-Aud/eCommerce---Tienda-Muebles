@@ -1,0 +1,73 @@
+/* box model */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Globales */
+a {
+    text-decoration: none;
+    color: #000;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header y Navegacion */
+.nombre-sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+.nombre-sitio span {
+    color: #006fcb;
+}
+.contenedor-navegacion {
+    border-top: 1px solid #e1e1e1;
+}
+.nav-principal { 
+    padding: 20px 0;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: space-between;    
+}
+.hero {
+    background-image: url("../images/principal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+/* Categorias */
+.categorias h2 {
+    text-align: center;
+    font-size: 25px;
+}
+.categoria a {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 18px;
+}
+.categoria a:hover {
+    background-color: #037bc0;
+    color: #fff;
+    border-bottom-right-radius: 15px;
+}
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
