@@ -50,6 +50,7 @@ img {
 }
 .btn:hover {
     background-color: #769c02;
+    cursor: pointer;
 }
 .span-sitio {
     color: #006fcb;
@@ -305,4 +306,35 @@ img {
 .galeria img:hover {
     transform: scale(0.98);
     border: 3px solid #e1e1e1;
+}
+
+/* Formulario */
+.formulario {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.formulario fieldset {    
+    border: 1px solid #006fcb;
+    margin-bottom: 2rem;
+}
+.formulario legend {
+    background-color: #005485;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    border-radius: 1.5rem;
+}
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campo label {
+    flex-basis: 10rem;
+}
+.campo .input {
+    flex: 1;
 }
